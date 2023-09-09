@@ -1,6 +1,6 @@
 # Criação de Layout
 
-Criei esse [Layout](https://fernandesmelo.github.io/challenge-decodificador-de-texto/) através do desafio que recebi ao participar do processo seletivo do [Programa Aceleradora Ágil](https://www.linkedin.com/school/aceleradora-%C3%A1gil/mycompany/).
+Criei esse [Layout]( https://fernandesmelo.github.io/criacao-de-layout/) através do desafio que recebi ao participar do processo seletivo do [Programa Aceleradora Ágil](https://www.linkedin.com/school/aceleradora-%C3%A1gil/mycompany/).
 
 ![Captura de tela 2023-09-09 103234](https://github.com/fernandesmelo/challenge-decodificador-de-texto/assets/113717317/091bcb6b-74dd-48bf-ac6f-43fc6c36b634)
 
