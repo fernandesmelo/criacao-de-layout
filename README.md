@@ -2,23 +2,24 @@
 
 Criei esse [Layout]( https://fernandesmelo.github.io/criacao-de-layout/) através do desafio que recebi ao participar do processo seletivo do [Programa Aceleradora Ágil](https://www.linkedin.com/school/aceleradora-%C3%A1gil/mycompany/).
 
-![Captura de tela 2023-09-09 103234](https://github.com/fernandesmelo/challenge-decodificador-de-texto/assets/113717317/091bcb6b-74dd-48bf-ac6f-43fc6c36b634)
+![Captura de tela 2023-09-09 114804](https://github.com/fernandesmelo/criacao-de-layout/assets/113717317/1062a41c-5fe8-469d-abf8-61689849ab21)
 
 ##  📝 Sobre o Desafio- Descrição
 1. Crie um layout de largura e altura variável de acordo com o conteúdo da página, dividido em duas
 regiões distintas (menu esquerdo e conteúdo principal), siga as instruções abaixo:
 
-   ![Captura de tela 2023-06-17 210205](https://github.com/fernandesmelo/desafio-criacao-de-layout/assets/113717317/32b9c94f-6e7c-4f05-bb68-32fff4abc081)
+   ![Captura de tela 2023-09-09 114611](https://github.com/fernandesmelo/criacao-de-layout/assets/113717317/474773fb-3c55-4a95-bd1c-58c92414219e)
 
-3. No menu esquerdo, coloque uma imagem de um ícone padrão, um Nome genérico abaixo da imagem e
+3. No menu esquerdo, 
+coloque uma imagem de um ícone padrão, um Nome genérico abaixo da imagem e
 um texto.
 4. Para criar uma formatação para o menu esquerdo com os 4 links, utilize a estrutura abaixo:
 
-   ![Captura de tela 2023-06-17 210617](https://github.com/fernandesmelo/desafio-criacao-de-layout/assets/113717317/b20cb66a-71bc-4904-9876-84641342b93c)
-     
+   ![Captura de tela 2023-09-09 114631](https://github.com/fernandesmelo/criacao-de-layout/assets/113717317/745ee6fe-7cb8-46ef-8af2-b62756c7ed17)
+
    Crie uma formatação para esse menu.
 
-5. Na área principal, crie um título chamado "Lista de tarefas" e adicione uma tabela Dia e Noite
+6. Na área principal, crie um título chamado "Lista de tarefas" e adicione uma tabela Dia e Noite
 lado a lado. Em cada tabela, crie uma lista ordenada com tarefas genéricas a serem feitas
 durante uma rotina.
 
