@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+}
+
+#menu {
+  width: 350px;
+  background: #3CB371;
+  padding: 20px;
+}
+
+#menu img {
+  margin: auto;
+  display: block;
+  width: 200px; 
+  height: 200px; 
+  border-radius: 50%; 
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.generico {
+  text-align: center;
+}
+
+#content {
+  flex: 1;
+  flex-grow: 1;
+  padding: 80px;
+  background-color: #90EE90
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+#menu h2 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+#content h1, h3 {
+  text-align: center;
+}
+
+#content h1 {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.centraliza {
+  text-align: center;
+}
+
+#menu li {
+  padding: 2px 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a, .destaque {
+  color: blue;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.task-table {
+  display: flex;
+}
+
+.task-list {
+  flex-basis: 50%;
+  box-shadow: 5px 5px 10px gray;
+  border: 1px solid #90EE90;
+  background-color: #DCF8AC;
+  margin: 3px; 
+  padding: 10px; 
+}
+
+.task-list ul {
+  padding-left: 20px;
+}
+
+.fa-trash-alt {
+  color: darkgrey;
+  cursor: pointer;
+  padding-left: 10px; 
+}
+
+.add-task {
+  margin-top: 10px;
+}
+
+.add-task input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.add-task button {
+  padding: 5px 10px;
+}
+
+button {
+border-radius: 10px;
+background-color: #3CB371;
+color: black;
+padding: 3px 8px; 
+font-size: 12px; 
+border: 2px solid #3CB371; 
+cursor: pointer;
+}
+
+button:hover {
+background-color: #90EE90;
+border-color: #90EE90;
+}

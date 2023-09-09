@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="menu">
+        <img src="Imagens/Foto Oficial.jpg" alt="Foto Pessoa">
+        <h2>Laércio Fernandes</h2>
+        <p class="generico">
+          Estudante de Desenvolvimento de Sistemas e me especializando para ser um Desenvolvedor Web Front-End.
+        </p>
+        <ul class="centraliza">
+          <li><a href="https://www.linkedin.com/in/laercio-fernandes-desenvolvedor-front-end/" class="destaque">LinkedIn</a></li>
+          <li><a href="https://github.com/fernandesmelo" class="destaque">GitHub</a></li>
+          <li><a href="https://www.instagram.com/laerciofernandesmelo/" class="destaque">Instagram</a></li>
+          <li><a href="https://www.thoughtworks.com/en-br/about-us/diversity-and-inclusion/aceleradora" class="destaque">Agile Accelerator</a></li>
+        </ul>
+      </div>
+      <div id="content">
+        <h1>Lista de Tarefas</h1>
+        <div class="task-table">
+          <div class="task-list">
+            <h3>Dia</h3>
+            <ul id="day-tasks">
+              <li>
+                <span>Estudar inglês</span>
+                <i class="fas fa-trash-alt" onclick="removeTask(event)"></i>
+              </li>
+              <li>
+                <span>Praticar JavaScript</span>
+                <i class="fas fa-trash-alt" onclick="removeTask(event)"></i>
+              </li>
+              <li>
+                <span>Fazer exercícios físicos</span>
+                <i class="fas fa-trash-alt" onclick="removeTask(event)"></i>
+              </li>
+              <li>
+                <span>Ajudar a minha mãe a arrumar um emprego</span>
+                <i class="fas fa-trash-alt" onclick="removeTask(event)"></i>
+              </li>
+              <li>
+                <span>Meditar</span>
+                <i class="fas fa-trash-alt" onclick="removeTask(event)"></i>
+              </li>
+              <li>
+                <span>Pedalar</span>
+                <i class="fas fa-trash-alt" onclick="removeTask(event)"></i>
+              </li>
+              <li>
+                <span>Arrumar o quarto</span>
+                <i class="fas fa-trash-alt" onclick="removeTask(event)"></i>
+              </li>
+              <li>
+                <span>Estudar sobre Business Agility</span>
+                <i class="fas fa-trash-alt" onclick="removeTask(event)"></i>
+              </li>
+              <li>
+                <span>Pesquisar sobre a empresa Thoughtworks </span>
+                <i class="fas fa-trash-alt" onclick="removeTask(event)"></i>
+              </li>
+              <li>
+                <span>Ver mensagens no Discord</span>
+                <i class="fas fa-trash-alt" onclick="removeTask(event)"></i>
+              </li>
+              <li>
+                <span>Estudar HTML e CSS</span>
+                <i class="fas fa-trash-alt" onclick="removeTask(event)"></i>
+              </li>
+            </ul>
+            <div class="add-task">
+              <input autofocus rows="10" cols="50" type="text" id="new-day-task" placeholder="Adicionar Tarefa">
+              <button onclick="addTask('day')">Adicionar</button>
+            </div>
+          </div>
+          <div class="task-list">
+            <h3>Noite</h3>
+            <ul id="night-tasks">
+              <li>
+                <span>Curso Técnico</span>
+                <i class="fas fa-trash-alt" onclick="removeTask(event)"></i>
+              </li>
+              <li>
+                <span>Ler o livro O Universo da Programação</span>
+                <i class="fas fa-trash-alt" onclick="removeTask(event)"></i> 
+              </li> 
+              <li>
+                <span>Melhorar meu LinkedIn</span>
+                <i class="fas fa-trash-alt" onclick="removeTask(event)"></i>
+              </li>
+              <li>
+                <span>Trabalhar nos Projetos Pessoais</span>
+                <i class="fas fa-trash-alt" onclick="removeTask(event)"></i>
+              </li>
+              <li>
+                <span>Passar roupa</span>
+                <i class="fas fa-trash-alt" onclick="removeTask(event)"></i>
+              </li>
+              <li>
+                <span>Assistir a live sobre IA</span>
+                <i class="fas fa-trash-alt" onclick="removeTask(event)"></i>
+              </li>
+              <li>
+                <span>Organizar meu Quadro de Estudos</span>
+                <i class="fas fa-trash-alt" onclick="removeTask(event)"></i>
+              </li>
+            </ul> 
+            <div class = "add-task"> 
+              <input type = "text" id = "new-night-task" placeholder = "Adicionar Tarefa"> 
+              <button onclick = "addTask ('night')"> Adicionar </button> 
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+    </div> 
+  </body>
+</html>
